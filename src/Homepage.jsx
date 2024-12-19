@@ -1,6 +1,6 @@
 import React from "react";
 
-const Homepage = () => {
+function Homepage() {
   return (
     <div>
       <p>This is the main landing page of our website.</p>
@@ -11,6 +11,6 @@ const Homepage = () => {
       />
     </div>
   );
-};
+}
 
 export default Homepage;

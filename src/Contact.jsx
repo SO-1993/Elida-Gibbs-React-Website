@@ -1,7 +1,7 @@
 import React from "react";
 
-function Join() {
+function Contact() {
   return <p>This is the join page.</p>;
 }
 
-export default Join;
+export default Contact;

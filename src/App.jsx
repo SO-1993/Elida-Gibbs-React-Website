@@ -6,7 +6,8 @@ import Homepage from "./Homepage";
 import FirstTeam from "./FirstTeam";
 import FlexiTeam from "./FlexiTeam";
 import Sponsors from "./Sponsors";
-import Join from "./Join";
+import Contact from "./Contact";
+import Footer from "./Footer";
 
 const App = () => {
   return (
@@ -19,8 +20,9 @@ const App = () => {
         <Route path="/first-team" element={<FirstTeam />} />
         <Route path="/flexi-team" element={<FlexiTeam />} />
         <Route path="/sponsors" element={<Sponsors />} />
-        <Route path="/join" element={<Join />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
+      <Footer />
     </>
   );
 };
