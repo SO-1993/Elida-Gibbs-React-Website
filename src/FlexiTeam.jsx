@@ -1,7 +1,7 @@
 import React from "react";
 
 function FlexiTeam() {
-  return <h1>Hello from Flexi Team page!</h1>;
+  return <p>This is the flexi team page.</p>;
 }
 
 export default FlexiTeam;

@@ -1,7 +1,7 @@
 import React from "react";
 
 function Sponsors() {
-  return <h1>Hello from Sponsors page!</h1>;
+  return <p>This is the sponsors page.</p>;
 }
 
 export default Sponsors;

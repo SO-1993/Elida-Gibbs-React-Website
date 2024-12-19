@@ -15,6 +15,9 @@ function Navbar() {
       <div className="navbar-join">
         <a href="/join">Join</a>
       </div>
+      <div className="navbar-home">
+        <a href="/">Home</a>
+      </div>
     </nav>
   );
 }
