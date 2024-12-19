@@ -5,3 +5,17 @@ body {
   font-family: Arial;
   text-align: center;
 }
+
+.navbar {
+  background-color: burlywood;
+  display: flex;
+  position: sticky;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.navbar a {
+  text-decoration: none;
+}
