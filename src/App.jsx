@@ -1,7 +1,17 @@
 import React from "react";
+import { Routes, Route } from "react-router-dom";
+import Header from "./Header";
+import Navbar from "./Navbar";
 
 const App = () => {
-  return <h1>Welcome to Elida Gibbs F.C</h1>;
+  return (
+    <>
+      <Navbar />
+      <Header />
+
+      <Routes>{/* <Route path="/" element={<... />} /> */}</Routes>
+    </>
+  );
 };
 
 export default App;
