@@ -19,3 +19,7 @@ body {
 .navbar a {
   text-decoration: none;
 }
+
+footer {
+  background-color: #a3d296;
+}
