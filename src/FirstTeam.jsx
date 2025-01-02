@@ -167,22 +167,6 @@ function FirstTeam() {
               className="midfielder-avatar"
             />
           </div>
-          <div className="first-team-midfielder">
-            <p>Cameron Liddell</p>
-            <img
-              src="utils/images/midfielder-placeholder.jpg"
-              alt="midfielder-placeholder-image"
-              className="midfielder-avatar"
-            />
-          </div>
-          <div className="first-team-midfielder">
-            <p>Harry Whittaker</p>
-            <img
-              src="utils/images/midfielder-placeholder.jpg"
-              alt="midfielder-placeholder-image"
-              className="midfielder-avatar"
-            />
-          </div>
         </div>
       </div>
 
@@ -226,6 +210,22 @@ function FirstTeam() {
             <img
               src="utils/images/attacker-placeholder.jpg"
               alt="attacker-placeholder-image"
+              className="attacker-avatar"
+            />
+          </div>
+          <div className="first-team-attacker">
+            <p>Cameron Liddell</p>
+            <img
+              src="utils/images/midfielder-placeholder.jpg"
+              alt="midfielder-placeholder-image"
+              className="attacker-avatar"
+            />
+          </div>
+          <div className="first-team-attacker">
+            <p>Harry Whittaker</p>
+            <img
+              src="utils/images/midfielder-placeholder.jpg"
+              alt="midfielder-placeholder-image"
               className="attacker-avatar"
             />
           </div>
