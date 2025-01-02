@@ -3,6 +3,9 @@ import React from "react";
 function Navbar() {
   return (
     <nav className="navbar">
+      <div className="navbar-home">
+        <a href="/">Home</a>
+      </div>
       <div className="navbar-first-team">
         <a href="/first-team">First Team</a>
       </div>
@@ -14,9 +17,6 @@ function Navbar() {
       </div>
       <div className="navbar-join">
         <a href="/join">Join</a>
-      </div>
-      <div className="navbar-home">
-        <a href="/">Home</a>
       </div>
     </nav>
   );
