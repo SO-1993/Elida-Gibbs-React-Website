@@ -15,8 +15,8 @@ function Navbar() {
       <div className="navbar-sponsors">
         <a href="/sponsors">Sponsors</a>
       </div>
-      <div className="navbar-join">
-        <a href="/join">Join</a>
+      <div className="navbar-contact">
+        <a href="/contact">Contact</a>
       </div>
     </nav>
   );

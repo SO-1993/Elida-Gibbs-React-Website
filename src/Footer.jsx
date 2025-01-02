@@ -24,7 +24,7 @@ function Footer() {
             <a href="/flexi-team">Flexi Team</a>
           </li>
           <li>
-            <a href="/sponsors">Join Us</a>
+            <a href="/sponsors">Sponsors</a>
           </li>
           <li>
             <a href="/contact">Contact</a>
