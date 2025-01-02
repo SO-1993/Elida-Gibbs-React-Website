@@ -24,19 +24,27 @@ footer {
   background-color: #a3d296;
 }
 
-.goalkeeper-list,
-.defender-list,
-.midfielder-list,
-.attacker-list {
+.first-team-goalkeeper-list,
+.first-team-defender-list,
+.first-team-midfielder-list,
+.first-team-attacker-list,
+.flexi-team-goalkeeper-list,
+.flexi-team-defender-list,
+.flexi-team-midfielder-list,
+.flexi-team-attacker-list {
   display: flex;
   gap: 20px;
   justify-content: center;
 }
 
-.goalkeeper,
-.defender,
-.midfielder,
-.attacker {
+.first-team-goalkeeper,
+.first-team-defender,
+.first-team-midfielder,
+.first-team-attacker,
+.flexi-team-goalkeeper,
+.flexi-team-defender,
+.flexi-team-midfielder,
+.flexi-team-attacker {
   display: flex;
   flex-direction: column;
   align-items: center;
