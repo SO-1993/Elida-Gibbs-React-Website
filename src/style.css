@@ -6,6 +6,8 @@ body {
   text-align: center;
 }
 
+/* Navbar Styling */
+
 .navbar {
   background-color: burlywood;
   display: flex;
@@ -20,9 +22,13 @@ body {
   text-decoration: none;
 }
 
+/* Footer Styling */
+
 footer {
   background-color: #a3d296;
 }
+
+/* First Team and Flexi Team Styling */
 
 .first-team-goalkeeper-list,
 .first-team-defender-list,
@@ -59,4 +65,34 @@ footer {
   height: 75px;
   border-radius: 50%;
   margin-top: 10px;
+}
+
+.september-fixtures,
+.october-fixtures,
+.november-fixtures,
+.december-fixtures,
+.january-fixtures {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: green;
+  line-height: 1.5;
+}
+
+.first-team-results h3 {
+  color: blue;
+  margin-bottom: 5px;
+  text-decoration: underline;
+}
+
+.first-team-results {
+  padding-top: 30px;
+}
+
+.first-team-results > div {
+  margin-bottom: 20px; /* space between months */
+}
+
+.first-team-results div > div {
+  margin-bottom: 10px; /* space between each fixture */
 }

@@ -230,6 +230,69 @@ function FirstTeam() {
             />
           </div>
         </div>
+        <div className="first-team-results">
+          <div>
+            <b>Results (2024-25)</b>
+          </div>
+          <div className="september-fixtures">
+            <h3>September 2024</h3>
+            <div>
+              <b>League:</b> K Town United 1 - 6 Elida Gibbs AFC (08/09/24)
+            </div>
+            <div>
+              <b>Cup:</b> Republica Internationale II 0 - 6 Elida Gibbs AFC
+              (15/09/24)
+            </div>
+            <div>
+              <b>League:</b> Elida Gibbs AFC 5 - 1 Cricketers AFC (22/09/24)
+            </div>
+            <div>
+              <b>League:</b> Headingley Rovers FC 4 - 2 Elida Gibbs AFC
+              (29/09/24)
+            </div>
+          </div>
+          <div className="october-fixtures">
+            <h3>October 2024</h3>
+            <div>
+              <b>League:</b> Original Oak 3 - 1 Elida Gibbs AFC (13/10/24)
+            </div>
+            <div>
+              <b>Cup:</b> Elida Gibbs AFC 3 - 4 Old Hall Boys (20/10/24)
+            </div>
+            <div>
+              <b>League:</b> Old Crooked Clock 2 - 4 Elida Gibbs AFC (27/10/24)
+            </div>
+          </div>
+          <div className="november-fixtures">
+            <h3>November 2024</h3>
+            <div>
+              <b>League:</b> Cricketers AFC 1 - 4 Elida Gibbs AFC (03/11/24)
+            </div>
+            <div>
+              <b>Cup:</b> Elida Gibbs AFC 1 - 6 Original Oak (10/11/24)
+            </div>
+            <div>
+              <b>League:</b> Headingley Rovers FC 4 - 3 Elida Gibbs AFC
+              (17/11/24)
+            </div>
+          </div>
+          <div className="december-fixtures">
+            <h3>December 2024</h3>
+            <div>
+              <b>League:</b> Elida Gibbs AFC 0 - 5 Original Oak (08/12/24)
+            </div>
+            <div>
+              <b>League:</b> Elida Gibbs AFC 4 - 2 Republica Internationale I
+              (15/12/24)
+            </div>
+          </div>
+          <div className="january-fixtures">
+            <h3>January 2025</h3>
+            <div>
+              <b>League:</b> Elida Gibbs AFC X - Y Northern Star (05/01/24)
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
