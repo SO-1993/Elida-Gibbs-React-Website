@@ -22,6 +22,12 @@ body {
   text-decoration: none;
 }
 
+a:hover {
+  background-color: yellow;
+  font-size: 18px;
+  font-weight: 700;
+}
+
 /* Footer Styling */
 
 footer {
