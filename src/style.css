@@ -1,15 +1,26 @@
 body {
-  background-color: #d3d8e1;
-  color: red;
+  background-color: #001f54;
   padding: 40px;
   font-family: Arial;
   text-align: center;
+}
+body h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #d35400;
+}
+
+body p {
+  color: #fff;
 }
 
 /* Navbar Styling */
 
 .navbar {
-  background-color: burlywood;
+  background-color: #d35400;
   display: flex;
   position: sticky;
   align-items: center;
@@ -23,7 +34,7 @@ body {
 }
 
 a:hover {
-  background-color: yellow;
+  background-color: #a84400;
   font-size: 18px;
   font-weight: 700;
 }
@@ -31,7 +42,67 @@ a:hover {
 /* Footer Styling */
 
 footer {
-  background-color: #a3d296;
+  /* background-color: #a3d296; */
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-section {
+  margin-bottom: 20px;
+}
+
+.addresses,
+.quick-links,
+.follow-us {
+  margin-top: 20px;
+}
+
+.quick-links ul,
+.follow-us ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.quick-links li,
+.follow-us li {
+  margin-bottom: 5px;
+}
+
+.quick-links a,
+.follow-us a {
+  color: #d35400;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.quick-links a:hover,
+.follow-us a:hover {
+  text-decoration: underline;
+  background-color: transparent;
+}
+
+.overview h4,
+.addresses h4,
+.quick-links h4,
+.follow-us h4 {
+  margin-bottom: 10px;
+  color: #d35400;
+  font-weight: 700;
+}
+
+.footer-section p {
+  margin: 0;
+}
+
+footer p,
+footer a {
+  font-size: 14px; /
+}
+
+footer .footer-section:last-child p {
+  text-align: center; 
+  font-size: 12px;
 }
 
 /* First Team and Flexi Team Styling */
@@ -104,3 +175,5 @@ footer {
 }
 
 /* Sponsors Styling */
+
+/* Footer Styling */
