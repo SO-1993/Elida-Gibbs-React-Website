@@ -3,8 +3,8 @@ import React from "react";
 function Header() {
   return (
     <>
-      <h1>Elida Gibbs Football Club</h1>
-      <h2>Up The Gibbs!</h2>
+      <h1>Elida Gibbs AFC</h1>
+      <h2>#UTG!</h2>
     </>
   );
 }
