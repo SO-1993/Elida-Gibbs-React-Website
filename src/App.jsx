@@ -8,13 +8,16 @@ import FlexiTeam from "./FlexiTeam";
 import Sponsors from "./Sponsors";
 import Contact from "./Contact";
 import Footer from "./Footer";
+import ImageCarousel from "./Carousel";
 
 const App = () => {
   return (
     <>
       <Navbar />
       <Header />
+      <ImageCarousel />
 
+      {/* Routes for individual pages */}
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/first-team" element={<FirstTeam />} />
