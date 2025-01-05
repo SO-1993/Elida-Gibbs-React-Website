@@ -31,10 +31,11 @@ body p {
 
 .navbar a {
   text-decoration: none;
+  
 }
 
 a:hover {
-  background-color: #a84400;
+  background-color: transparent;
   font-size: 18px;
   font-weight: 700;
 }
@@ -152,12 +153,12 @@ footer .footer-section:last-child p {
   display: flex;
   flex-direction: column;
   text-align: center;
-  color: green;
+  color: #fff;
   line-height: 1.5;
 }
 
 .first-team-results h3 {
-  color: blue;
+  color: #d35400;
   margin-bottom: 5px;
   text-decoration: underline;
 }
