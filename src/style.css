@@ -1,3 +1,5 @@
+/* Global Styling */
+
 body {
   background-color: #001f54;
   padding: 40px;
@@ -16,6 +18,72 @@ h6 {
 body p {
   color: #fff;
 }
+
+/* Carousel Styling */
+/* Carousel Container */
+.carousel-container {
+  width: 80%;
+  max-width: 800px;
+  margin: 20px auto; 
+  position: relative;
+  overflow: hidden;
+  border: 2px solid #333; 
+  border-radius: 10px;
+}
+
+/* Slide */
+.slide {
+  width: 100%;
+  text-align: center;
+}
+
+.carousel-image {
+  width: 100%;
+  display: block; 
+  border-radius: 10px;
+}
+
+.carousel-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #333;
+  color: white;
+  border: none;
+  font-size: 18px;
+  padding: 10px 15px;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.carousel-button:hover {
+  opacity: 1; 
+}
+
+.carousel-button.prev {
+  left: 10px;
+}
+
+.carousel-button.next {
+  right: 10px;
+}
+
+
+.carousel-button {
+  font-size: 16px;
+  padding: 8px 12px;
+  }
+
+  .circle-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 8px;
+  }
+  
+  .circle-icon {
+    cursor: pointer;
+  }
 
 /* Navbar Styling */
 
