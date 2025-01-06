@@ -1,32 +1,32 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import Header from "./Header";
-import Navbar from "./Navbar";
+import Layout from "./Layout";
 import Homepage from "./Homepage";
 import FirstTeam from "./FirstTeam";
 import FlexiTeam from "./FlexiTeam";
 import Sponsors from "./Sponsors";
 import Contact from "./Contact";
-import Footer from "./Footer";
-import ImageCarousel from "./Carousel";
+import Leaderboard from "./Leaderboard";
 
 const App = () => {
   return (
-    <>
-      <Navbar />
-      <Header />
-      <ImageCarousel />
-
-      {/* Routes for individual pages */}
-      <Routes>
-        <Route path="/" element={<Homepage />} />
-        <Route path="/first-team" element={<FirstTeam />} />
-        <Route path="/flexi-team" element={<FlexiTeam />} />
-        <Route path="/sponsors" element={<Sponsors />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
-      <Footer />
-    </>
+    <Routes>
+      <Route
+        path="/*"
+        element={
+          <Layout>
+            <Routes>
+              <Route path="/" element={<Homepage />} />
+              <Route path="/first-team" element={<FirstTeam />} />
+              <Route path="/flexi-team" element={<FlexiTeam />} />
+              <Route path="/sponsors" element={<Sponsors />} />
+              <Route path="/contact" element={<Contact />} />
+              <Route path="/leaderboard" element={<Leaderboard />} />
+            </Routes>
+          </Layout>
+        }
+      />
+    </Routes>
   );
 };
 

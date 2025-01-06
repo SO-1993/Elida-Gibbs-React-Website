@@ -19,8 +19,19 @@ body p {
   color: #fff;
 }
 
+/* Layout Styling */
+
+.elida-gibbs-badge {
+  border-radius: 50%;
+}
+
+/* .leeds-combination-crest {
+  border-radius: 50%;
+} */
+
+
 /* Carousel Styling */
-/* Carousel Container */
+
 .carousel-container {
   width: 80%;
   max-width: 800px;
@@ -31,7 +42,6 @@ body p {
   border-radius: 10px;
 }
 
-/* Slide */
 .slide {
   width: 100%;
   text-align: center;

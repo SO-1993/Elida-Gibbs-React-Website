@@ -18,6 +18,9 @@ function Navbar() {
       <div className="navbar-contact">
         <a href="/contact">Contact</a>
       </div>
+      <div className="navbar-contact">
+        <a href="/leaderboard">Leaderboard</a>
+      </div>
     </nav>
   );
 }
