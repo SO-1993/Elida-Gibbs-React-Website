@@ -1,4 +1,5 @@
 import React from "react";
+import Profiles from "./Profiles";
 
 function Leaderboard() {
   const handleClick = (e) => {
@@ -27,6 +28,8 @@ function Leaderboard() {
           Red Cards
         </button>
       </div>
+
+      <Profiles></Profiles>
     </div>
   );
 }
