@@ -1,22 +1,19 @@
 import React from "react";
 
-function Profiles() {
-  return <div className="profile">{Item()}</div>;
-}
-
-function Item() {
+function Profiles({ players }) {
   return (
-    <div className="flex">
-      <div className="item">
-        <img
-          src="utils/images/goalkeeper-placeholder.jpg"
-          alt="goalkeeper-placeholder-image"
-        />
-        <div className="info">
-          <h3 className="player-name">Name</h3>
-          <span className="player-position">Position</span>
+    <div className="profile">
+      {players.map((player, index) => (
+        <div className="flex" key={index}>
+          <div className="item">
+            <img src={player.img} alt={`${player.name}'s avatar`} />
+            <div className="info">
+              <h3 className="player-name">{player.name}</h3>
+              <span className="player-position">{player.position}</span>
+            </div>
+          </div>
         </div>
-      </div>
+      ))}
     </div>
   );
 }

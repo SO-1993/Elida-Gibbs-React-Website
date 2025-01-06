@@ -253,6 +253,86 @@ footer .footer-section:last-child p {
   margin-bottom: 10px; /* space between each fixture */
 }
 
+/* Leaderboard Styling */
+
+/* Leaderboard Container */
+.board {
+  width: 80%;
+  margin: 20px auto;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+/* Leaderboard Title */
+.Leaderboard {
+  font-size: 1.8em;
+  margin-bottom: 15px;
+  color: #333333; /* Dark gray for strong visibility */
+}
+
+/* Button Section */
+.statistic {
+  margin-bottom: 15px;
+}
+
+.statistic button {
+  background-color: #007bff; /* Blue theme */
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 0.9em;
+  border-radius: 4px;
+}
+
+.statistic button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Table Styling */
+.leaderboard-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-size: 0.95em;
+}
+
+.leaderboard-table th,
+.leaderboard-table td {
+  border: 1px solid #dddddd; /* Neutral gray borders */
+  padding: 10px;
+  text-align: left;
+}
+
+.leaderboard-table th {
+  background-color: #eaf4ff; /* Light blue header */
+  color: #333333; /* Dark gray text */
+}
+
+.leaderboard-table tr:nth-child(even) {
+  background-color: #f9f9f9; /* Light gray for even rows */
+}
+
+.leaderboard-table tr:nth-child(odd) {
+  background-color: #ffffff; /* White for odd rows */
+}
+
+.leaderboard-table tr:hover {
+  background-color: #f1f1f1; /* Light gray hover effect */
+}
+
+/* Image Styling */
+.leaderboard-table img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+
+
+
 /* Sponsors Styling */
 
 /* Footer Styling */
