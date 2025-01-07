@@ -16,6 +16,7 @@ export const players = [
     cleanSheets: 0,
     yellowCards: 0,
     redCards: 0,
+    manOfTheMatch: 0,
   },
   {
     name: "James Holding",
@@ -28,6 +29,7 @@ export const players = [
     cleanSheets: 0,
     yellowCards: 0,
     redCards: 0,
+    manOfTheMatch: 0,
   },
   {
     name: "Tommy Ford",
@@ -40,6 +42,7 @@ export const players = [
     cleanSheets: 0,
     yellowCards: 0,
     redCards: 0,
+    manOfTheMatch: 0,
   },
 
   // Defenders
@@ -54,6 +57,7 @@ export const players = [
     cleanSheets: 0,
     yellowCards: 0,
     redCards: 0,
+    manOfTheMatch: 0,
   },
   {
     name: "Joe Butler",
@@ -66,6 +70,7 @@ export const players = [
     cleanSheets: 0,
     yellowCards: 0,
     redCards: 0,
+    manOfTheMatch: 0,
   },
   {
     name: "Scott O'Brien",
@@ -78,6 +83,7 @@ export const players = [
     cleanSheets: 0,
     yellowCards: 0,
     redCards: 0,
+    manOfTheMatch: 0,
   },
   {
     name: "Dan Schackleton",
@@ -90,6 +96,7 @@ export const players = [
     cleanSheets: 0,
     yellowCards: 0,
     redCards: 0,
+    manOfTheMatch: 0,
   },
   {
     name: "Joshua Barnett",
@@ -102,6 +109,7 @@ export const players = [
     cleanSheets: 0,
     yellowCards: 0,
     redCards: 0,
+    manOfTheMatch: 0,
   },
   {
     name: "Cameron Robinson",
@@ -114,6 +122,7 @@ export const players = [
     cleanSheets: 0,
     yellowCards: 0,
     redCards: 0,
+    manOfTheMatch: 0,
   },
   {
     name: "Jamie Fozard",
@@ -126,6 +135,7 @@ export const players = [
     cleanSheets: 0,
     yellowCards: 0,
     redCards: 0,
+    manOfTheMatch: 0,
   },
   {
     name: "Tim Malkin",
@@ -138,6 +148,7 @@ export const players = [
     cleanSheets: 0,
     yellowCards: 0,
     redCards: 0,
+    manOfTheMatch: 0,
   },
 
   // Midfielders
@@ -152,6 +163,7 @@ export const players = [
     cleanSheets: 0,
     yellowCards: 0,
     redCards: 0,
+    manOfTheMatch: 0,
   },
   {
     name: "Dan Edmonds",
@@ -164,6 +176,7 @@ export const players = [
     cleanSheets: 0,
     yellowCards: 0,
     redCards: 0,
+    manOfTheMatch: 0,
   },
   {
     name: "Dean Worrall (C)",
@@ -176,6 +189,7 @@ export const players = [
     cleanSheets: 0,
     yellowCards: 0,
     redCards: 0,
+    manOfTheMatch: 0,
   },
   {
     name: "Adam Franklin",
@@ -188,6 +202,7 @@ export const players = [
     cleanSheets: 0,
     yellowCards: 0,
     redCards: 0,
+    manOfTheMatch: 0,
   },
   {
     name: "Jacob Darkes",
@@ -200,6 +215,7 @@ export const players = [
     cleanSheets: 0,
     yellowCards: 0,
     redCards: 0,
+    manOfTheMatch: 0,
   },
   {
     name: "Arjun Varma",
@@ -212,6 +228,7 @@ export const players = [
     cleanSheets: 0,
     yellowCards: 0,
     redCards: 0,
+    manOfTheMatch: 0,
   },
   {
     name: "Aran Harris",
@@ -224,6 +241,7 @@ export const players = [
     cleanSheets: 0,
     yellowCards: 0,
     redCards: 0,
+    manOfTheMatch: 0,
   },
   {
     name: "Jai Narayan",
@@ -236,6 +254,7 @@ export const players = [
     cleanSheets: 0,
     yellowCards: 0,
     redCards: 0,
+    manOfTheMatch: 0,
   },
 
   // Attackers
@@ -250,6 +269,7 @@ export const players = [
     cleanSheets: 0,
     yellowCards: 0,
     redCards: 0,
+    manOfTheMatch: 0,
   },
   {
     name: "Jordan Moore",
@@ -262,6 +282,7 @@ export const players = [
     cleanSheets: 0,
     yellowCards: 0,
     redCards: 0,
+    manOfTheMatch: 0,
   },
   {
     name: "Jordan Mercer",
@@ -274,6 +295,7 @@ export const players = [
     cleanSheets: 0,
     yellowCards: 0,
     redCards: 0,
+    manOfTheMatch: 0,
   },
   {
     name: "Andy Pye",
@@ -285,6 +307,7 @@ export const players = [
     cleanSheets: 0,
     yellowCards: 0,
     redCards: 0,
+    manOfTheMatch: 0,
   },
   {
     name: "Josh Robinson",
@@ -297,6 +320,7 @@ export const players = [
     cleanSheets: 0,
     yellowCards: 0,
     redCards: 0,
+    manOfTheMatch: 0,
   },
   {
     name: "Cameron Liddell",
@@ -309,6 +333,7 @@ export const players = [
     cleanSheets: 0,
     yellowCards: 0,
     redCards: 0,
+    manOfTheMatch: 0,
   },
   {
     name: "Harry Whittaker",
@@ -321,5 +346,6 @@ export const players = [
     cleanSheets: 0,
     yellowCards: 0,
     redCards: 0,
+    manOfTheMatch: 0,
   },
 ];

@@ -46,6 +46,7 @@ function Leaderboard() {
             <th>Clean Sheets</th>
             <th>Yellow Cards</th>
             <th>Red Cards</th>
+            <th>MOTM</th>
           </tr>
         </thead>
         <tbody>
@@ -68,6 +69,7 @@ function Leaderboard() {
               <td>{player.cleanSheets}</td>
               <td>{player.yellowCards}</td>
               <td>{player.redCards}</td>
+              <td>{player.manOfTheMatch}</td>
             </tr>
           ))}
         </tbody>
