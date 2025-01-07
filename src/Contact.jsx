@@ -1,8 +1,10 @@
 import React from "react";
+import ImageCarousel from "./Carousel";
 
 function Contact() {
   return (
     <>
+      <div>{<ImageCarousel />}</div>
       <h1>Contact Elida Gibbs AFC</h1>
       <p>
         Name: Dean Worrall

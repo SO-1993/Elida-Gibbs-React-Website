@@ -1,11 +1,8 @@
 import React from "react";
+import ImageCarousel from "./Carousel";
 
 function Homepage() {
-  return (
-    <div>
-      <p>This is the main landing page of our website.</p>
-    </div>
-  );
+  return <div>{<ImageCarousel />}</div>;
 }
 
 export default Homepage;
