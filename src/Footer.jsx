@@ -48,7 +48,7 @@ function Footer() {
             <a href="https://instagram.com/elidagibbsfc">Instagram</a>
           </li>
           <li>
-            <a href="https://youtube.com/elidagibbsfc">YouTube</a>
+            <a href="https://www.youtube.com/@ElidaGibbsAFC">YouTube</a>
           </li>
         </ul>
       </div>
