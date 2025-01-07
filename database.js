@@ -6,7 +6,7 @@ import attackerPlaceholder from "./utils/images/attacker-placeholder.jpg";
 export const players = [
   // Goalkeepers
   {
-    name: "Adam Fenwick",
+    name: "(1) Adam Fenwick",
     position: "Goalkeeper",
     DOB: "N/A",
     img: goalkeeperPlaceholder,
@@ -19,7 +19,7 @@ export const players = [
     manOfTheMatch: 0,
   },
   {
-    name: "James Holding",
+    name: "(1) James Holding",
     position: "Goalkeeper",
     DOB: "N/A",
     img: goalkeeperPlaceholder,
@@ -32,7 +32,7 @@ export const players = [
     manOfTheMatch: 0,
   },
   {
-    name: "Tommy Ford",
+    name: "(1) Tommy Ford",
     position: "Goalkeeper",
     DOB: "N/A",
     img: goalkeeperPlaceholder,
@@ -47,7 +47,7 @@ export const players = [
 
   // Defenders
   {
-    name: "Tom Hammond",
+    name: "(1) Tom Hammond",
     position: "Defender",
     DOB: "N/A",
     img: defenderPlaceholder,
@@ -60,7 +60,7 @@ export const players = [
     manOfTheMatch: 0,
   },
   {
-    name: "Joe Butler",
+    name: "(1) Joe Butler",
     position: "Defender",
     DOB: "N/A",
     img: defenderPlaceholder,
@@ -73,7 +73,7 @@ export const players = [
     manOfTheMatch: 0,
   },
   {
-    name: "Scott O'Brien",
+    name: "(1) Scott O'Brien",
     position: "Defender",
     DOB: "N/A",
     img: defenderPlaceholder,
@@ -86,7 +86,7 @@ export const players = [
     manOfTheMatch: 0,
   },
   {
-    name: "Dan Schackleton",
+    name: "(1) Dan Schackleton",
     position: "Defender",
     DOB: "N/A",
     img: defenderPlaceholder,
@@ -99,7 +99,7 @@ export const players = [
     manOfTheMatch: 0,
   },
   {
-    name: "Joshua Barnett",
+    name: "(1) Joshua Barnett",
     position: "Defender",
     DOB: "N/A",
     img: defenderPlaceholder,
@@ -112,7 +112,7 @@ export const players = [
     manOfTheMatch: 0,
   },
   {
-    name: "Cameron Robinson",
+    name: "(1) Cameron Robinson",
     position: "Defender",
     DOB: "N/A",
     img: defenderPlaceholder,
@@ -125,7 +125,7 @@ export const players = [
     manOfTheMatch: 0,
   },
   {
-    name: "Jamie Fozard",
+    name: "(1) Jamie Fozard",
     position: "Defender",
     DOB: "N/A",
     img: defenderPlaceholder,
@@ -138,7 +138,7 @@ export const players = [
     manOfTheMatch: 0,
   },
   {
-    name: "Tim Malkin",
+    name: "(1) Tim Malkin",
     position: "Defender",
     DOB: "N/A",
     img: defenderPlaceholder,
@@ -153,7 +153,7 @@ export const players = [
 
   // Midfielders
   {
-    name: "Danny Kreft",
+    name: "(1) Danny Kreft",
     position: "Midfielder",
     DOB: "N/A",
     img: midfielderPlaceholder,
@@ -166,7 +166,7 @@ export const players = [
     manOfTheMatch: 0,
   },
   {
-    name: "Dan Edmonds",
+    name: "(1) Dan Edmonds",
     position: "Midfielder",
     DOB: "N/A",
     img: midfielderPlaceholder,
@@ -179,7 +179,7 @@ export const players = [
     manOfTheMatch: 0,
   },
   {
-    name: "Dean Worrall (C)",
+    name: "(1) Dean Worrall (C)",
     position: "Midfielder",
     DOB: "N/A",
     img: midfielderPlaceholder,
@@ -192,7 +192,7 @@ export const players = [
     manOfTheMatch: 0,
   },
   {
-    name: "Adam Franklin",
+    name: "(1) Adam Franklin",
     position: "Midfielder",
     DOB: "N/A",
     img: midfielderPlaceholder,
@@ -205,7 +205,7 @@ export const players = [
     manOfTheMatch: 0,
   },
   {
-    name: "Jacob Darkes",
+    name: "(1) Jacob Darkes",
     position: "Midfielder",
     DOB: "N/A",
     img: midfielderPlaceholder,
@@ -218,7 +218,7 @@ export const players = [
     manOfTheMatch: 0,
   },
   {
-    name: "Arjun Varma",
+    name: "(1) Arjun Varma",
     position: "Midfielder",
     DOB: "N/A",
     img: midfielderPlaceholder,
@@ -230,19 +230,7 @@ export const players = [
     redCards: 0,
     manOfTheMatch: 0,
   },
-  {
-    name: "Aran Harris",
-    position: "Midfielder",
-    DOB: "N/A",
-    img: midfielderPlaceholder,
-    appearances: 0,
-    goals: 0,
-    assists: 0,
-    cleanSheets: 0,
-    yellowCards: 0,
-    redCards: 0,
-    manOfTheMatch: 0,
-  },
+
   {
     name: "Jai Narayan",
     position: "Midfielder",
@@ -259,7 +247,7 @@ export const players = [
 
   // Attackers
   {
-    name: "Oli Baron",
+    name: "(9) Oli Baron",
     position: "Attacker",
     DOB: "N/A",
     img: attackerPlaceholder,
@@ -272,7 +260,7 @@ export const players = [
     manOfTheMatch: 0,
   },
   {
-    name: "Jordan Moore",
+    name: "(1) Jordan Moore",
     position: "Attacker",
     DOB: "N/A",
     img: attackerPlaceholder,
@@ -285,7 +273,7 @@ export const players = [
     manOfTheMatch: 0,
   },
   {
-    name: "Jordan Mercer",
+    name: "(1) Jordan Mercer",
     position: "Attacker",
     DOB: "N/A",
     img: attackerPlaceholder,
@@ -298,7 +286,7 @@ export const players = [
     manOfTheMatch: 0,
   },
   {
-    name: "Andy Pye",
+    name: "(1) Andy Pye",
     position: "Attacker",
     DOB: "N/A",
     img: attackerPlaceholder,
@@ -307,23 +295,10 @@ export const players = [
     cleanSheets: 0,
     yellowCards: 0,
     redCards: 0,
-    manOfTheMatch: 0,
+    manOfTheMatch: 2,
   },
   {
-    name: "Josh Robinson",
-    position: "Attacker",
-    DOB: "N/A",
-    img: attackerPlaceholder,
-    appearances: 0,
-    goals: 0,
-    assists: 0,
-    cleanSheets: 0,
-    yellowCards: 0,
-    redCards: 0,
-    manOfTheMatch: 0,
-  },
-  {
-    name: "Cameron Liddell",
+    name: "(1) Josh Robinson",
     position: "Attacker",
     DOB: "N/A",
     img: attackerPlaceholder,
@@ -333,10 +308,23 @@ export const players = [
     cleanSheets: 0,
     yellowCards: 0,
     redCards: 0,
+    manOfTheMatch: 1,
+  },
+  {
+    name: "(1) Cameron Liddell",
+    position: "Attacker",
+    DOB: "N/A",
+    img: attackerPlaceholder,
+    appearances: 20,
+    goals: 0,
+    assists: 0,
+    cleanSheets: 0,
+    yellowCards: 0,
+    redCards: 0,
     manOfTheMatch: 0,
   },
   {
-    name: "Harry Whittaker",
+    name: "(1) Harry Whittaker",
     position: "Attacker",
     DOB: "N/A",
     img: attackerPlaceholder,

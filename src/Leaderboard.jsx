@@ -3,13 +3,58 @@ import Profiles from "./Profiles";
 import { players } from "../database.js";
 
 function Leaderboard() {
-  const [sortBy, setSortBy] = useState("appearances");
+  const [sortBy, setSortBy] = useState("position");
+  const [filterBy, setFilterBy] = useState("");
 
+  // Sort players based on selected filter criteria (initially position)
+  const sortedPlayers = [...players].sort((a, b) => {
+    if (sortBy === "position") {
+      const positionOrder = { Goalkeeper: 1, Defender: 2, Attacker: 3 };
+      return positionOrder[a.position] - positionOrder[b.position];
+    } else {
+      return b[sortBy] - a[sortBy];
+    }
+  });
+
+  // Filter players based on selected filter criteria
+  const filteredPlayers = sortedPlayers.filter((player) => {
+    if (filterBy === "") {
+      return true;
+    } else if (filterBy === "appearances") {
+      return player.appearances > 0;
+    } else if (filterBy === "goals") {
+      return player.goals > 0;
+    } else if (filterBy === "assists") {
+      return player.assists > 0;
+    } else if (filterBy === "cleanSheets") {
+      return player.cleanSheets > 0;
+    } else if (filterBy === "yellowCards") {
+      return player.yellowCards > 0;
+    } else if (filterBy === "redCards") {
+      return player.redCards > 0;
+    } else if (filterBy === "manOfTheMatch") {
+      return player.manOfTheMatch > 0;
+    }
+    return true;
+  });
+
+  // Handle button click to either sort or filter
   const handleClick = (e) => {
-    setSortBy(e.target.dataset.id);
+    const clickedId = e.target.dataset.id;
+    if (
+      clickedId === "appearances" ||
+      clickedId === "goals" ||
+      clickedId === "assists" ||
+      clickedId === "cleanSheets" ||
+      clickedId === "yellowCards" ||
+      clickedId === "redCards" ||
+      clickedId === "manOfTheMatch"
+    ) {
+      setFilterBy(clickedId); // Set filter criteria
+    } else {
+      setSortBy(clickedId); // Set sorting criteria
+    }
   };
-
-  const sortedPlayers = [...players].sort((a, b) => b[sortBy] - a[sortBy]);
 
   return (
     <div className="board">
@@ -33,6 +78,9 @@ function Leaderboard() {
         <button onClick={handleClick} data-id="redCards">
           Red Cards
         </button>
+        <button onClick={handleClick} data-id="manOfTheMatch">
+          MOTM
+        </button>
       </div>
 
       <table className="leaderboard-table">
@@ -50,7 +98,7 @@ function Leaderboard() {
           </tr>
         </thead>
         <tbody>
-          {sortedPlayers.map((player, index) => (
+          {filteredPlayers.map((player, index) => (
             <tr key={index}>
               <td>
                 <div className="player-name-with-image">
