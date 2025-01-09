@@ -265,6 +265,11 @@ footer .footer-section:last-child p {
   line-height: 1.5;
 }
 
+.first-team-results h2 {
+  margin-bottom: 5px;
+  text-decoration: none;
+}
+
 .first-team-results h3 {
   color: #d35400;
   margin-bottom: 5px;
@@ -282,6 +287,7 @@ footer .footer-section:last-child p {
 .first-team-results div > div {
   margin-bottom: 10px; /* space between each fixture */
 }
+
 
 /* Leaderboard Styling */
 

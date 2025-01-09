@@ -224,16 +224,15 @@ function FirstTeam() {
           <div className="first-team-attacker">
             <p>Harry Whittaker</p>
             <img
-              src="./utils/images/midfielder-placeholder.jpg"
+              src="/utils/images/midfielder-placeholder.jpg"
               alt="midfielder-placeholder-image"
               className="attacker-avatar"
             />
           </div>
         </div>
         <div className="first-team-results">
-          <div>
-            <b>Results (2024-25)</b>
-          </div>
+          <h2>Results (2024-25)</h2>
+
           <div className="september-fixtures">
             <h3>September 2024</h3>
             <div>
@@ -286,12 +285,12 @@ function FirstTeam() {
               (15/12/24)
             </div>
           </div>
-          <div className="january-fixtures">
+          {/* <div className="january-fixtures">
             <h3>January 2025</h3>
             <div>
               <b>League:</b> Elida Gibbs AFC X - Y Northern Star (05/01/24)
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
