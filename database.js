@@ -1,7 +1,8 @@
-import goalkeeperPlaceholder from "./utils/images/goalkeeper-placeholder.jpg";
-import defenderPlaceholder from "./utils/images/defender-placeholder.jpg";
-import midfielderPlaceholder from "./utils/images/midfielder-placeholder.jpg";
-import attackerPlaceholder from "./utils/images/attacker-placeholder.jpg";
+// import goalkeeperPlaceholder from "./utils/images/goalkeeper-placeholder.jpg";
+// import goalkeeperPlaceholder from "./public/utils/images/goalkeeperPlaceholder";
+// import defenderPlaceholder from "./utils/images/defender-placeholder.jpg";
+// import midfielderPlaceholder from "./utils/images/midfielder-placeholder.jpg";
+// import attackerPlaceholder from "./utils/images/attacker-placeholder.jpg";
 
 export const players = [
   // Goalkeepers
@@ -9,7 +10,7 @@ export const players = [
     name: "(1) Adam Fenwick",
     position: "Goalkeeper",
     DOB: "N/A",
-    img: goalkeeperPlaceholder,
+    img: "./utils/images/goalkeeper-placeholder.jpg",
     appearances: 0,
     goals: 0,
     assists: 0,

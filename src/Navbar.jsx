@@ -5,7 +5,7 @@ function Navbar() {
     <nav className="navbar">
       <img
         className="navbar-elida-gibbs-badge"
-        src="utils/images/elida_gibbs_badge.png"
+        src="public/images/elida_gibbs_badge.png"
         alt="Elida Gibbs crest"
       />
       <div className="navbar-home">
