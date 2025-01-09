@@ -11,12 +11,12 @@ const Layout = ({ children }) => (
     <div>
       <img
         className="elida-gibbs-badge"
-        src="public/images/elida_gibbs_badge.png"
+        src="./utils/images/elida_gibbs_badge.png"
         alt="Elida Gibbs crest"
       />
       {/* <img
         className="leeds-combination-crest"
-        src="public/images/leeds_combination_league.jpg"
+        src="./utils/images/leeds_combination_league.jpg"
         alt="Leeds Combination crest"
       /> */}
       <h2>Up The Gibbs!</h2>
