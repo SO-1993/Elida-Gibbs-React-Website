@@ -18,7 +18,7 @@ function Leaderboard() {
 
   // Filter players based on selected filter criteria
   const filteredPlayers = sortedPlayers.filter((player) => {
-    if (filterBy === "") {
+    if (filterBy === "" || filterBy === "all") {
       return true;
     } else if (filterBy === "appearances") {
       return player.appearances > 0;
@@ -42,6 +42,7 @@ function Leaderboard() {
   const handleClick = (e) => {
     const clickedId = e.target.dataset.id;
     if (
+      clickedId === "all" ||
       clickedId === "appearances" ||
       clickedId === "goals" ||
       clickedId === "assists" ||
@@ -60,6 +61,9 @@ function Leaderboard() {
     <div className="board">
       <h1 className="Leaderboard">Leaderboard</h1>
       <div className="statistic">
+        <button onClick={handleClick} data-id="all">
+          All
+        </button>
         <button onClick={handleClick} data-id="appearances">
           Appearances
         </button>
