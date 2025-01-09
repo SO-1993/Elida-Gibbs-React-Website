@@ -15,11 +15,13 @@ function Contact() {
       </p>
       <p>
         Elida Gibbs are always on the lookout for new players to join our squad.
-        Whether you're an experienced footballer or just looking to get back
-        into the game, we'd love to hear from you. We're a good bunch of lads
-        who enjoy competitive football, having a laugh, and supporting each
-        other both on and off the pitch. Come and be part of a welcoming and
-        passionate team!
+        Following promotion last from Division 3 in the 2023/24 season, we are
+        ambitious to continue our jouney up the divisions. Whether you're an
+        experienced footballer, fresh from underage football, or looking to get
+        back into the game after a period of time out, we'd love to hear from
+        you. We're a good bunch of lads who enjoy competitive football, having a
+        laugh, and supporting each other both on and off the pitch. Come and be
+        part of a welcoming and passionate team!
         <br />
         <br />
         The team holds weekly training sessions every Tuesday at Cockburn

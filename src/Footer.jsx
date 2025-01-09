@@ -7,8 +7,8 @@ function Footer() {
         <div className="overview">
           <h4>About Elida Gibbs F.C.</h4>
           <p>
-            Founded in 2020, we are a North-Leeds-based football club focused on
-            developing talent and supporting the local area.
+            Founded in 2020, we are a North-Leeds-based football club playing in
+            Leeds Combination Association Footbal League Division Two.
           </p>
         </div>
       </div>
