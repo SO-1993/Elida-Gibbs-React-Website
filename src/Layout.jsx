@@ -19,6 +19,7 @@ const Layout = ({ children }) => (
         src="utils/images/leeds_combination_league.jpg"
         alt="Leeds Combination crest"
       /> */}
+      <h2>Up The Gibbs!</h2>
     </div>
     {children}
     {/* <ImageCarousel /> */}
