@@ -1,27 +1,33 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
     <nav className="navbar">
-      <img
-        className="navbar-elida-gibbs-badge"
-        src="./utils/images/elida_gibbs_badge.png"
-        alt="Elida Gibbs crest"
-      />
+      <div className="navbar-logo">
+        <Link to="/">
+          <img
+            className="navbar-elida-gibbs-badge"
+            src="./utils/images/elida_gibbs_badge.png"
+            alt="Elida Gibbs crest"
+          />
+        </Link>
+      </div>
+
       <div className="navbar-home">
-        <a href="/">Home</a>
+        <Link to="/">Home</Link>
       </div>
       <div className="navbar-first-team">
-        <a href="/first-team">First Team</a>
+        <Link to="/first-team">First Team</Link>
       </div>
       <div className="navbar-contact">
-        <a href="/leaderboard">Leaderboard</a>
+        <Link to="/leaderboard">Leaderboard</Link>{" "}
       </div>
       <div className="navbar-sponsors">
-        <a href="/sponsors">Sponsors</a>
+        <Link to="/sponsors">Sponsors</Link>
       </div>
       <div className="navbar-contact">
-        <a href="/contact">Contact</a>
+        <Link to="/contact">Contact</Link>
       </div>
     </nav>
   );
