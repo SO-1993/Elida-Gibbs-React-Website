@@ -8,7 +8,7 @@ function Footer() {
           <h4>About Elida Gibbs F.C.</h4>
           <p>
             Founded in 2020, we are a North-Leeds-based football club playing in
-            Leeds Combination Association Footbal League Division Two.
+            Division Two of the Leeds Combination Association Footbal League.
           </p>
         </div>
       </div>
