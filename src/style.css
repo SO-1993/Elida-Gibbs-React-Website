@@ -312,36 +312,61 @@ footer .footer-section:last-child p {
 
 
 /* Table Styling */
+
+.Leaderboard {
+  color: #fff;
+}
+
 .leaderboard-table {
   width: 100%;
   border-collapse: collapse;
   margin-top: 20px;
   font-size: 0.95em;
+  background-color: #0f2a43; 
+  table-layout: fixed; 
 }
 
 .leaderboard-table th,
 .leaderboard-table td {
-  border: 1px solid #dddddd; /* Neutral gray borders */
-  padding: 10px;
+  border: 1px solid #3d5a80;
+  padding: 15px;
   text-align: left;
+  color: #fff;
+  width: 11.11%; 
 }
 
 .leaderboard-table th {
-  background-color: #eaf4ff; /* Light blue header */
-  color: #333333; /* Dark gray text */
+  background-color: #001f54;
+  color: #d35400;
+  font-weight: 700;
+  font-size: 1.1rem; 
 }
 
 .leaderboard-table tr:nth-child(even) {
-  background-color: #f9f9f9; /* Light gray for even rows */
+  background-color: #1e3c5f;
 }
 
 .leaderboard-table tr:nth-child(odd) {
-  background-color: #ffffff; /* White for odd rows */
+  background-color: #152e48;
 }
 
 .leaderboard-table tr:hover {
-  background-color: #f1f1f1; /* Light gray hover effect */
+  background-color: #264d7a;
+  cursor: pointer;
 }
+
+.leaderboard-table .player-name {
+  color: #fff;
+}
+
+/* Image Styling */
+.leaderboard-table img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
 
 /* Image Styling */
 .leaderboard-table img {

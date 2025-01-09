@@ -149,7 +149,7 @@ function Leaderboard() {
               <tr key={index}>
                 <td>
                   <div className="player-name-with-image">
-                    <h4>{player.name}</h4>
+                    <h4 className="player-name">{player.name}</h4>
                     <img
                       src={player.img}
                       alt={player.name}
