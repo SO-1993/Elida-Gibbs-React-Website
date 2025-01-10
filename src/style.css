@@ -228,8 +228,9 @@ footer .footer-section:last-child p {
   font-size: 12px;
 }
 
-/* First Team and Flexi Team Styling */
+/* First Team Styling */
 
+/* Default (for larger screens) */
 .first-team-goalkeeper-list,
 .first-team-defender-list,
 .first-team-midfielder-list,
@@ -239,8 +240,10 @@ footer .footer-section:last-child p {
 .flexi-team-midfielder-list,
 .flexi-team-attacker-list {
   display: flex;
-  gap: 20px;
+  flex-wrap: wrap; 
   justify-content: center;
+  gap: 20px; 
+  margin-bottom: 30px;
 }
 
 .first-team-goalkeeper,
@@ -254,6 +257,7 @@ footer .footer-section:last-child p {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   text-align: center;
 }
 
@@ -266,6 +270,35 @@ footer .footer-section:last-child p {
   border-radius: 50%;
   margin-top: 10px;
 }
+
+/* For smaller screens */
+@media (max-width: 768px) {
+  .first-team-goalkeeper-list,
+  .first-team-defender-list,
+  .first-team-midfielder-list,
+  .first-team-attacker-list,
+  .flexi-team-goalkeeper-list,
+  .flexi-team-defender-list,
+  .flexi-team-midfielder-list,
+  .flexi-team-attacker-list {
+    flex-direction: column; 
+    justify-content: flex-start;
+    gap: 15px; 
+  }
+
+  .first-team-goalkeeper,
+  .first-team-defender,
+  .first-team-midfielder,
+  .first-team-attacker,
+  .flexi-team-goalkeeper,
+  .flexi-team-defender,
+  .flexi-team-midfielder,
+  .flexi-team-attacker {
+    flex-direction: column; 
+    align-items: center;
+  }
+}
+
 
 .september-fixtures,
 .october-fixtures,
