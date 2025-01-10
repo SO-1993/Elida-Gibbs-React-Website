@@ -54,7 +54,7 @@ function Footer() {
       </div>
 
       <div className="footer-section">
-        <p>&copy; 2024 Elida Gibbs Football Club All Rights Reserved.</p>
+        <p>&copy; 2025 Elida Gibbs Football Club All Rights Reserved.</p>
       </div>
     </footer>
   );

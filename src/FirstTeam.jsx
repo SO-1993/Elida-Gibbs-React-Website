@@ -13,6 +13,7 @@ function FirstTeam() {
             className="goalkeeper-avatar"
           />
         </div>
+
         <div className="first-team-goalkeeper">
           <p>James Holding</p>
           <img
@@ -30,51 +31,12 @@ function FirstTeam() {
           />
         </div>
       </div>
+      <hr />
       <div className="first-team-defenders">
         <h2>Defenders</h2>
         <div className="first-team-defender-list">
           <div className="first-team-defender">
-            <p>Tom Hammond</p>
-            <img
-              src="./utils/images/defender-placeholder.jpg"
-              alt="defender-placeholder-image"
-              className="defender-avatar"
-            />
-          </div>
-          <div className="first-team-defender">
-            <p>Joe Butler</p>
-            <img
-              src="./utils/images/defender-placeholder.jpg"
-              alt="defender-placeholder-image"
-              className="defender-avatar"
-            />
-          </div>
-          <div className="first-team-defender">
-            <p>Scott O'Brien</p>
-            <img
-              src="./utils/images/defender-placeholder.jpg"
-              alt="defender-placeholder-image"
-              className="defender-avatar"
-            />
-          </div>
-          <div className="first-team-defender">
-            <p>Dan Schackleton</p>
-            <img
-              src="./utils/images/defender-placeholder.jpg"
-              alt="defender-placeholder-image"
-              className="defender-avatar"
-            />
-          </div>
-          <div className="first-team-defender">
-            <p>Joshua Barnett</p>
-            <img
-              src="./utils/images/defender-placeholder.jpg"
-              alt="defender-placeholder-image"
-              className="defender-avatar"
-            />
-          </div>
-          <div className="first-team-defender">
-            <p>Cameron Robinson</p>
+            <p>Tim Malkin</p>
             <img
               src="./utils/images/defender-placeholder.jpg"
               alt="defender-placeholder-image"
@@ -90,7 +52,47 @@ function FirstTeam() {
             />
           </div>
           <div className="first-team-defender">
-            <p>Tim Malkin</p>
+            <p>Joshua Barnett</p>
+            <img
+              src="./utils/images/defender-placeholder.jpg"
+              alt="defender-placeholder-image"
+              className="defender-avatar"
+            />
+          </div>
+          <div className="first-team-defender">
+            <p>Dan Schackleton</p>
+            <img
+              src="./utils/images/defender-placeholder.jpg"
+              alt="defender-placeholder-image"
+              className="defender-avatar"
+            />
+          </div>
+          <div className="first-team-defender">
+            <p>Scott O'Brien</p>
+            <img
+              src="./utils/images/defender-placeholder.jpg"
+              alt="defender-placeholder-image"
+              className="defender-avatar"
+            />
+          </div>
+          <div className="first-team-defender">
+            <p>Cameron Robinson</p>
+            <img
+              src="./utils/images/defender-placeholder.jpg"
+              alt="defender-placeholder-image"
+              className="defender-avatar"
+            />
+          </div>
+          <div className="first-team-defender">
+            <p>Joe Butler</p>
+            <img
+              src="./utils/images/defender-placeholder.jpg"
+              alt="defender-placeholder-image"
+              className="defender-avatar"
+            />
+          </div>
+          <div className="first-team-defender">
+            <p>Tom Hammond</p>
             <img
               src="./utils/images/defender-placeholder.jpg"
               alt="defender-placeholder-image"
@@ -99,28 +101,21 @@ function FirstTeam() {
           </div>
         </div>
       </div>
+      <hr />
 
       <div className="first-team-midfielders">
         <h2>Midfielders</h2>
         <div className="first-team-midfielder-list">
           <div className="first-team-midfielder">
+            <p>Danny Kreft Dan Edmonds</p>
+            <img
+              src="./utils/images/midfielder-placeholder.jpg"
+              alt="midfielder-placeholder-image"
+              className="midfielder-avatar"
+            />
+          </div>
+          <div className="first-team-midfielder">
             <p>Danny Kreft</p>
-            <img
-              src="./utils/images/midfielder-placeholder.jpg"
-              alt="midfielder-placeholder-image"
-              className="midfielder-avatar"
-            />
-          </div>
-          <div className="first-team-midfielder">
-            <p>Dan Edmonds</p>
-            <img
-              src="./utils/images/midfielder-placeholder.jpg"
-              alt="midfielder-placeholder-image"
-              className="midfielder-avatar"
-            />
-          </div>
-          <div className="first-team-midfielder">
-            <p>Dean Worrall (C)</p>
             <img
               src="./utils/images/midfielder-placeholder.jpg"
               alt="midfielder-placeholder-image"
@@ -137,6 +132,14 @@ function FirstTeam() {
           </div>
           <div className="first-team-midfielder">
             <p>Jacob Darkes</p>
+            <img
+              src="./utils/images/midfielder-placeholder.jpg"
+              alt="midfielder-placeholder-image"
+              className="midfielder-avatar"
+            />
+          </div>
+          <div className="first-team-midfielder">
+            <p>Dean Worrall (C)</p>
             <img
               src="./utils/images/midfielder-placeholder.jpg"
               alt="midfielder-placeholder-image"
@@ -169,12 +172,13 @@ function FirstTeam() {
           </div>
         </div>
       </div>
+      <hr />
 
       <div className="first-team-attackers">
         <h2>Attackers</h2>
         <div className="first-team-attacker-list">
           <div className="first-team-attacker">
-            <p>Oli Baron</p>
+            <p>Jordan Mercer</p>
             <img
               src="./utils/images/attacker-placeholder.jpg"
               alt="attacker-placeholder-image"
@@ -190,7 +194,7 @@ function FirstTeam() {
             />
           </div>
           <div className="first-team-attacker">
-            <p>Jordan Mercer</p>
+            <p>Andy Pye</p>
             <img
               src="./utils/images/attacker-placeholder.jpg"
               alt="attacker-placeholder-image"
@@ -198,7 +202,7 @@ function FirstTeam() {
             />
           </div>
           <div className="first-team-attacker">
-            <p>Andy Pye</p>
+            <p>Oli Baron</p>
             <img
               src="./utils/images/attacker-placeholder.jpg"
               alt="attacker-placeholder-image"
@@ -216,20 +220,21 @@ function FirstTeam() {
           <div className="first-team-attacker">
             <p>Cameron Liddell</p>
             <img
-              src="./utils/images/midfielder-placeholder.jpg"
-              alt="midfielder-placeholder-image"
+              src="./utils/images/attacker-placeholder.jpg"
+              alt="attacker-placeholder-image"
               className="attacker-avatar"
             />
           </div>
           <div className="first-team-attacker">
             <p>Harry Whittaker</p>
             <img
-              src="/utils/images/midfielder-placeholder.jpg"
-              alt="midfielder-placeholder-image"
+              src="/utils/images/attacker-placeholder.jpg"
+              alt="attacker-placeholder-image"
               className="attacker-avatar"
             />
           </div>
         </div>
+        <hr />
         <div className="first-team-results">
           <h2>Results (2024-25)</h2>
 
