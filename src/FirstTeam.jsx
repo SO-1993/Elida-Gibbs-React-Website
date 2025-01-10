@@ -3,6 +3,8 @@ import React from "react";
 function FirstTeam() {
   return (
     <div className="first-team-goalkeepers">
+      <hr />
+
       <h2>Goalkeepers</h2>
       <div className="first-team-goalkeeper-list">
         <div className="first-team-goalkeeper">
@@ -107,7 +109,7 @@ function FirstTeam() {
         <h2>Midfielders</h2>
         <div className="first-team-midfielder-list">
           <div className="first-team-midfielder">
-            <p>Danny Kreft Dan Edmonds</p>
+            <p>Dan Edmonds</p>
             <img
               src="./utils/images/midfielder-placeholder.jpg"
               alt="midfielder-placeholder-image"

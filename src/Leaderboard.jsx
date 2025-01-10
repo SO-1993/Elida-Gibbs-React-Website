@@ -1,67 +1,47 @@
 import React, { useState } from "react";
-import Profiles from "./Profiles";
 import { players } from "../database.js";
 
 function Leaderboard() {
-  const [sortBy, setSortBy] = useState("position");
-  const [filterBy, setFilterBy] = useState("");
+  const [filterBy, setFilterBy] = useState("all");
 
-  // Sort players based on selected filter criteria (initially position)
-  const sortedPlayers = [...players].sort((a, b) => {
-    if (sortBy === "position") {
-      const positionOrder = {
-        Goalkeeper: 1,
-        Defender: 2,
-        Midfielder: 3,
-        Attacker: 4,
-      };
-      return positionOrder[a.position] - positionOrder[b.position];
-    } else {
-      return b[sortBy] - a[sortBy];
-    }
-  });
+  // Map to define user-friendly titles for columns
+  const columnTitles = {
+    appearances: "Appearances",
+    goals: "Goals",
+    assists: "Assists",
+    cleanSheets: "Clean Sheets",
+    yellowCards: "Yellow Cards",
+    redCards: "Red Cards",
+    manOfTheMatch: "Man of the Match",
+  };
 
-  // Filter players based on selected filter criteria
-  const filteredPlayers = sortedPlayers.filter((player) => {
-    if (filterBy === "" || filterBy === "all") {
-      return true;
-    } else if (filterBy === "appearances") {
-      return player.appearances > 0;
-    } else if (filterBy === "goals") {
-      return player.goals > 0;
-    } else if (filterBy === "assists") {
-      return player.assists > 0;
-    } else if (filterBy === "cleanSheets") {
-      return player.cleanSheets > 0;
-    } else if (filterBy === "yellowCards") {
-      return player.yellowCards > 0;
-    } else if (filterBy === "redCards") {
-      return player.redCards > 0;
-    } else if (filterBy === "manOfTheMatch") {
-      return player.manOfTheMatch > 0;
-    }
-    return true;
-  });
+  // Filter and sort players dynamically
+  const filteredPlayers = [...players]
+    .filter((player) => {
+      if (filterBy === "all") return true; // Show all players
+      return player[filterBy] > 0; // Show only players with > 0 for the selected stat
+    })
+    .sort((a, b) => {
+      if (filterBy === "all") {
+        // Default sorting by position order if no specific filter
+        const positionOrder = {
+          Goalkeeper: 1,
+          Defender: 2,
+          Midfielder: 3,
+          Attacker: 4,
+        };
+        return positionOrder[a.position] - positionOrder[b.position];
+      } else {
+        // Sort in descending order of the selected stat
+        return b[filterBy] - a[filterBy];
+      }
+    });
 
-  // Handle button click to either sort or filter
+  // Handle button click to filter players
   const handleClick = (e) => {
     const clickedId = e.target.dataset.id;
-
-    if (!clickedId) return;
-
-    if (
-      clickedId === "all" ||
-      clickedId === "appearances" ||
-      clickedId === "goals" ||
-      clickedId === "assists" ||
-      clickedId === "cleanSheets" ||
-      clickedId === "yellowCards" ||
-      clickedId === "redCards" ||
-      clickedId === "manOfTheMatch"
-    ) {
-      setFilterBy(clickedId); // Set filter criteria
-    } else {
-      setSortBy(clickedId); // Set sorting criteria
+    if (clickedId) {
+      setFilterBy(clickedId);
     }
   };
 
@@ -135,13 +115,18 @@ function Leaderboard() {
             <tr>
               <th>Name</th>
               <th>Position</th>
-              <th>Appearances</th>
-              <th>Goals</th>
-              <th>Assists</th>
-              <th>Clean Sheets</th>
-              <th>Yellow Cards</th>
-              <th>Red Cards</th>
-              <th>MOTM</th>
+              {filterBy !== "all" && <th>{columnTitles[filterBy]}</th>}
+              {filterBy === "all" && (
+                <>
+                  <th>Appearances</th>
+                  <th>Goals</th>
+                  <th>Assists</th>
+                  <th>Clean Sheets</th>
+                  <th>Yellow Cards</th>
+                  <th>Red Cards</th>
+                  <th>MOTM</th>
+                </>
+              )}
             </tr>
           </thead>
           <tbody>
@@ -158,13 +143,18 @@ function Leaderboard() {
                   </div>
                 </td>
                 <td>{player.position}</td>
-                <td>{player.appearances}</td>
-                <td>{player.goals}</td>
-                <td>{player.assists}</td>
-                <td>{player.cleanSheets}</td>
-                <td>{player.yellowCards}</td>
-                <td>{player.redCards}</td>
-                <td>{player.manOfTheMatch}</td>
+                {filterBy !== "all" && <td>{player[filterBy]}</td>}
+                {filterBy === "all" && (
+                  <>
+                    <td>{player.appearances}</td>
+                    <td>{player.goals}</td>
+                    <td>{player.assists}</td>
+                    <td>{player.cleanSheets}</td>
+                    <td>{player.yellowCards}</td>
+                    <td>{player.redCards}</td>
+                    <td>{player.manOfTheMatch}</td>
+                  </>
+                )}
               </tr>
             ))}
           </tbody>

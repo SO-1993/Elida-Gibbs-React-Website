@@ -5,7 +5,7 @@ function Footer() {
     <footer>
       <div className="footer-section">
         <div className="overview">
-          <h4>About Elida Gibbs F.C.</h4>
+          <h4>About Elida Gibbs AFC</h4>
           <p>
             Founded in 2020, we are a North-Leeds-based football club playing in
             Division Two of the Leeds Combination Association Footbal League.
