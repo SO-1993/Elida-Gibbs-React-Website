@@ -162,6 +162,15 @@ p {
     cursor: pointer;
   }
 
+  /* Carousel Responsiveness */
+
+  .carousel-image {
+    width: 100%;
+    max-width: 400px; 
+    height: auto;
+  }
+  
+
 /* Footer Styling */
 
 footer {
