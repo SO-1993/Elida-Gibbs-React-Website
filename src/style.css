@@ -70,6 +70,20 @@ p {
 
 }
 
+/* Navbar Responsiveness */
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    padding: 20px;
+  }
+  .navbar a {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+}
+
+
 
 
 /* Layout Styling */
@@ -296,46 +310,58 @@ footer .footer-section:last-child p {
   width: 80%;
   margin: 20px auto;
   text-align: center;
-  font-family: Arial, sans-serif;
+  
 }
 
 /* Leaderboard Title */
 .Leaderboard {
   font-size: 1.8em;
   margin-bottom: 15px;
-  color: #333333; /* Dark gray for strong visibility */
+  color: #333333; 
 }
 
 /* Button Section */
 .statistic {
   margin-bottom: 15px;
+  display: flex; /* Flexbox for button alignment */
+  flex-wrap: wrap; /* Allow buttons to wrap onto next line if needed */
+  justify-content: flex-start; /* Align buttons to the left */
+  gap: 10px; /* Space between buttons */
 }
 
-/* Button Styling */
 .statistic-button {
-  background-color: #001f54; 
+  background-color: #001f54;
   color: #fff;
   border: 1px solid #d35400;
-  width: 150px; 
-  height: 40px; 
-  border-radius: 5px; 
-  margin: 3px;
-  font-size: 16px; 
-  cursor: pointer; 
-  transition: background-color 0.3s ease; 
+  height: 40px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  flex: 0 0 150px; /* Flex-grow, flex-shrink, flex-basis (allows buttons to adjust properly) */
 }
 
-/* Hover Effect */
 .statistic-button:hover {
   background-color: #d35400;
   border: 1px solid #001f54;
 }
 
+/* Optional: For mobile responsiveness */
+@media (max-width: 768px) {
+  .statistic-button {
+    flex: 0 0 120px; /* Adjust width for smaller screens */
+    font-size: 14px; /* Adjust font size for smaller screens */
+  }
+}
 
-/* Table Styling */
+
+
+
+/* Leaderboard Styling */
 
 .Leaderboard {
   color: #fff;
+  overflow-x: auto; /* Allow horizontal scrolling for small screens */
 }
 
 .leaderboard-table {
@@ -343,7 +369,7 @@ footer .footer-section:last-child p {
   border-collapse: collapse;
   margin-top: 20px;
   font-size: 0.95em;
-  background-color: #0f2a43; 
+  background-color: #0f2a43;
   table-layout: fixed; 
 }
 
@@ -353,14 +379,17 @@ footer .footer-section:last-child p {
   padding: 15px;
   text-align: left;
   color: #fff;
-  width: 11.11%; 
+  width: 11.11%;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem; /* Adjust font size */
 }
+
 
 .leaderboard-table th {
   background-color: #001f54;
   color: #d35400;
   font-weight: 700;
-  font-size: 1.1rem; 
+  font-size: 1.1rem;
 }
 
 .leaderboard-table tr:nth-child(even) {
@@ -377,24 +406,42 @@ footer .footer-section:last-child p {
 }
 
 .leaderboard-table .player-name {
+  font-family: "Poppins", sans-serif;
   color: #fff;
 }
 
-/* Image Styling */
-.leaderboard-table img {
-  width: 35px;
-  height: 35px;
-  border-radius: 50%;
-  object-fit: cover;
-}
-
-
-/* Image Styling */
+/* Leaderboard Image Styling */
 .leaderboard-table img {
   width: 30px;
   height: 30px;
   border-radius: 50%;
   object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .leaderboard-table th,
+  .leaderboard-table td {
+    padding: 10px;
+    font-size: 0.85rem; 
+  }
+}
+
+@media (max-width: 480px) {
+  .Leaderboard {
+    overflow-x: auto; 
+    -webkit-overflow-scrolling: touch; 
+  }
+
+  .leaderboard-table {
+    table-layout: auto; 
+    width: 800px; 
+  }
+
+  .leaderboard-table th,
+  .leaderboard-table td {
+    font-size: 0.8rem;
+    padding: 8px;
+  }
 }
 
 
@@ -419,7 +466,7 @@ footer .footer-section:last-child p {
 .sponsors-container p {
   font-size: 1rem;
   line-height: 1.6;
-  color: #fff;
+  color: #dcdcdc; 
   margin-bottom: 20px;
 }
 
@@ -505,25 +552,23 @@ footer .footer-section:last-child p {
 
 .contact-section p {
   font-size: 1rem;
-  color: #fff;
+  color: #dcdcdc;
   margin-bottom: 15px;
 }
 
 .contact-section strong {
-  color: #f39c12; /* Matches the color theme for emphasis */
+  color: #f39c12; 
 }
 
 .contact-section br {
   margin-bottom: 10px;
 }
 
-/* Add spacing to text to avoid edge alignment */
 .contact-section {
   padding-left: 20px;
   padding-right: 20px;
 }
 
-/* Responsiveness */
 @media (max-width: 768px) {
   .contact-container {
     padding: 20px;
@@ -541,4 +586,3 @@ footer .footer-section:last-child p {
     font-size: 0.9rem;
   }
 }
-
