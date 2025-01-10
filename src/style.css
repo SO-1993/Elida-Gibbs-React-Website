@@ -359,10 +359,10 @@ footer .footer-section:last-child p {
 /* Button Section */
 .statistic {
   margin-bottom: 15px;
-  display: flex; /* Flexbox for button alignment */
-  flex-wrap: wrap; /* Allow buttons to wrap onto next line if needed */
-  justify-content: flex-start; /* Align buttons to the left */
-  gap: 10px; /* Space between buttons */
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px; 
 }
 
 .statistic-button {
@@ -370,17 +370,19 @@ footer .footer-section:last-child p {
   color: #fff;
   border: 1px solid #d35400;
   height: 40px;
+  width: 140px;
+  margin-bottom: 20px;
   border-radius: 5px;
   font-size: 16px;
   cursor: pointer;
   transition: background-color 0.3s ease;
-  flex: 0 0 150px; /* Flex-grow, flex-shrink, flex-basis (allows buttons to adjust properly) */
 }
 
 .statistic-button:hover {
   background-color: #d35400;
   border: 1px solid #001f54;
 }
+
 
 /* Optional: For mobile responsiveness */
 @media (max-width: 768px) {
@@ -389,11 +391,6 @@ footer .footer-section:last-child p {
     font-size: 14px; /* Adjust font size for smaller screens */
   }
 }
-
-
-
-
-/* Leaderboard Styling */
 
 .Leaderboard {
   color: #fff;
@@ -444,6 +441,7 @@ footer .footer-section:last-child p {
 .leaderboard-table .player-name {
   font-family: "Poppins", sans-serif;
   color: #fff;
+  
 }
 
 /* Leaderboard Image Styling */
